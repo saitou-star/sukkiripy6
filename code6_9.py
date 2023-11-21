@@ -6,7 +6,8 @@ def add_suffix(names):
 
 before_names = ['松田', '浅木', '工藤']
 
-copied_names = before_names.copy()
+copied_names = before_names.copy() # これか1行下のどちらかで大丈夫
+copied_names = before_names[:]
 # for n in before_names:
 #     copied_names.append(n)
 
